@@ -17,15 +17,18 @@ public class Car {
 	
 	Car(){}
 	
+	
+	
+	
 	Car(String model){
 		//this.model = model;
-		this(model, "오이색", 250);
+		this(model, "오이색", 250); // 35번째가 모델,컬러,맥스스피드 순서이므로 this에도 순서를 모델,컬러, 맥스스피드 순서에 맞게  맞춰줘야.
 	}
 	
 	Car(String model, String color){
 		//this.model = model;
 		//this.color = color;
-		this(model, color, 290);
+		this(model, color , 290);
 	}
 	
 	

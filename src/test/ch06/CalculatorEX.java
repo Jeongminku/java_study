@@ -3,9 +3,11 @@ package test.ch06;
 public class CalculatorEX {
 
 	public static void main(String[] args) {
+
 		//객체생성하기
 		Calculator myCalc = new Calculator(); 
-	
+		
+/*		22.11.11
 		myCalc.powerOn();
 		
 		
@@ -20,9 +22,15 @@ public class CalculatorEX {
 		
 		myCalc.powerOff();
 	}
+*/
+		//22.11.14 메소드 오버로딩에 이어서.
+		
+		double result1 = myCalc.areaRectangle(10);
+		System.out.println(result1);
+		double result2 = myCalc.areaRectangle(10,20);
+		System.out.println(result2);
 
 	
 	
-	
-	
+}
 }
