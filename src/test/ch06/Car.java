@@ -10,20 +10,21 @@ public class Car {
 	//boolean start; //시동여부
 	int maxSpeed;
 	int speed;
-	
+	static int numbering = 0;
 	
 	//public class Car 이므로 Car 이름 똑같게 해줘야. (매개변수는 자유롭게 작성 가능.)
 	//자바에서는 생성자를 명시하지않으면, 컴파일 과정에서 생성자를 생성해준다.
 	
-	Car(){}
+
 	
-	
-	
+	Car(){
+		numbering++;
+	}
 	
 	Car(String model){
 		//this.model = model;
 		this(model, "오이색", 250); // 35번째가 모델,컬러,맥스스피드 순서이므로 this에도 순서를 모델,컬러, 맥스스피드 순서에 맞게  맞춰줘야.
-	}
+	}			
 	
 	Car(String model, String color){
 		//this.model = model;

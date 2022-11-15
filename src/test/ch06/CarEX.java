@@ -22,30 +22,45 @@ public class CarEX {
 		System.out.println("수정된값 myCar: " + myCar.speed);
 		System.out.println("수정된값 myCar2: " + myCar2.speed);
 		*/
-		
+		/*
 		Car myCar = new Car("그리피스","리화",255255255);
 		System.out.println(myCar.company);
 		System.out.println(myCar.model);
 		System.out.println(myCar.color);
 		System.out.println(myCar.maxSpeed);
 		System.out.println(myCar.speed);
+		System.out.println(myCar.numbering);
 		
 		Car car2 = new Car("커용");
 		System.out.println(car2.model);
 		System.out.println(car2.color);
 		System.out.println(car2.maxSpeed);
+		System.out.println(car2.numbering);
 		System.out.println("==========구분선========");
 		Car car3 = new Car("마자용", "파랑");
 		System.out.println(car3.model);
 		System.out.println(car3.color);
 		System.out.println(car3.maxSpeed);
+		System.out.println(car3.numbering);
 		System.out.println("==========구분선========");
 		Car car4 = new Car("망나뇽", "노랑", 3000);
 		System.out.println(car4.model);
 		System.out.println(car4.color);
 		System.out.println(car4.maxSpeed);
+		System.out.println(car4.numbering);
+		*/
 		
-		
+		Car myCar = new Car();
+		System.out.println(Car.numbering + "대째 생산");
+		System.out.println("==========구분선========");
+		Car car2 = new Car();
+		System.out.println(Car.numbering + "대째 생산");
+		System.out.println("==========구분선========");
+		Car car3 = new Car();
+		System.out.println(Car.numbering + "대째 생산");
+		System.out.println("==========구분선========");
+		Car car4 = new Car();
+		System.out.println(Car.numbering + "대째 생산");
 		
 	}
 
