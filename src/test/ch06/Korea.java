@@ -18,7 +18,5 @@ public class Korea {
 		this.ssn = ssn;
 		this.name = name;
 	}
-	Korea(String ssn){
-		this.ssn = ssn;
-	}
+	
 }

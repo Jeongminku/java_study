@@ -13,8 +13,11 @@ public class KoreaEX {
 
 		System.out.println("==========구분선========");
 		
-		Korea k2 = new Korea("7548-115167");
-		System.out.println(k1.ssn);
+		Korea k2= new Korea("7548-115167", "밤고구마");
+		System.out.println(k2.ssn);
+		System.out.println(k2.name);
+		
+		
 	}
 
 }
