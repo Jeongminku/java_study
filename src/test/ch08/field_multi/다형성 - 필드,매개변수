@@ -1,0 +1,27 @@
+다형성 --- 필드 방식
+Car,CarEX,Hankook,Kumho,Tire
+
+
+	 <- HankookTire
+Tire                             
+	 <- KumhoTire
+
+
+
+다형성 --- 매개변수 방식
+Driver, DirverEX, Bus, Taxi, Vehicle
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
